@@ -8,6 +8,7 @@ import Attendence from "./pages/Attendence";
 import Calender from "./pages/Calender";
 import Chat from "./pages/Chat";
 import LeavePage from "./pages/LeavePage";
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/student/calender" element={<Calender />} />
       <Route path="/student/chat" element={<Chat />} />
       <Route path="/student/leave" element={<LeavePage />} />
+      <Route path="/student/profile" element={<Profile/>} />
     </Routes>
   );
 }

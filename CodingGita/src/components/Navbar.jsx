@@ -107,7 +107,7 @@ export default function Navbar() {
 
               {/* MENU */}
               <div className="p-2">
-                <div className="w-full text-left text-sm px-3 py-2 rounded-md text-neutral-200 hover:bg-neutral-800 cursor-pointer">
+                <div onClick={()=>navigate("/student/profile")} className="w-full text-left text-sm px-3 py-2 rounded-md text-neutral-200 hover:bg-neutral-800 cursor-pointer">
                   View Profile
                 </div>
 
@@ -162,7 +162,7 @@ export default function Navbar() {
 
             <div className="border-t border-neutral-800 my-2" />
 
-            <div className="px-3 py-2 hover:bg-neutral-800 rounded">
+            <div onClick={()=>navigate("/student/profile")} className="px-3 py-2 hover:bg-neutral-800 rounded">
               View Profile
             </div>
 
